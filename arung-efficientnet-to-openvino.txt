@@ -1,0 +1,42 @@
+Exporting TensorFlow model to IR... This may take a few minutes.
+Model Optimizer arguments:
+Common parameters:
+	- Path to the Input Model: 	None
+	- Path for generated IR: 	d:\Edu\IntelOneAPI\myprojects\ir_model
+	- IR output name: 	BS
+	- Log level: 	ERROR
+	- Batch: 	Not specified, inherited from the model
+	- Input layers: 	Not specified, inherited from the model
+	- Output layers: 	Not specified, inherited from the model
+	- Input shapes: 	[1,150,150,3]
+	- Source layout: 	Not specified
+	- Target layout: 	Not specified
+	- Layout: 	Not specified
+	- Mean values: 	Not specified
+	- Scale values: 	Not specified
+	- Scale factor: 	Not specified
+	- Precision of IR: 	FP16
+	- Enable fusing: 	True
+	- User transformations: 	Not specified
+	- Reverse input channels: 	False
+	- Enable IR generation for fixed input shape: 	False
+	- Use the transformations config file: 	None
+Advanced parameters:
+	- Force the usage of legacy Frontend of Model Optimizer for model conversion into IR: 	False
+	- Force the usage of new Frontend of Model Optimizer for model conversion into IR: 	False
+TensorFlow specific parameters:
+	- Input model in text protobuf format: 	False
+	- Path to model dump for TensorBoard: 	None
+	- List of shared libraries with TensorFlow custom layers implementation: 	None
+	- Update the configuration file with input/output node names: 	None
+	- Use configuration file used to generate the model with Object Detection API: 	None
+	- Use the config file: 	None
+OpenVINO runtime found in: 	C:\Program Files (x86)\Intel\oneAPI\intelpython\python3.9\envs\2022.2.0\openvino_env\lib\site-packages\openvino
+OpenVINO runtime version: 	2022.2.0-7713-af16ea1d79a-releases/2022/2
+Model Optimizer version: 	2022.2.0-7713-af16ea1d79a-releases/2022/2
+[ SUCCESS ] Generated IR version 11 model.
+[ SUCCESS ] XML file: d:\Edu\IntelOneAPI\myprojects\ir_model\BS.xml
+[ SUCCESS ] BIN file: d:\Edu\IntelOneAPI\myprojects\ir_model\BS.bin
+[ SUCCESS ] Total execution time: 298.46 seconds. 
+[ INFO ] The model was converted to IR v11, the latest model format that corresponds to the source DL framework input/output format. While IR v11 is backwards compatible with OpenVINO Inference Engine API v1.0, please use API v2.0 (as of 2022.1) to take advantage of the latest improvements in IR v11.
+Find more information about API v2.0 and IR v11 at https://docs.openvino.ai
